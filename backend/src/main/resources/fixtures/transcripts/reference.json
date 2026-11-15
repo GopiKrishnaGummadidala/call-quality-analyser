@@ -1,0 +1,22 @@
+{
+  "datasetName": "Synthetic bank-call sample set",
+  "language": "en",
+  "clips": [
+    {
+      "clipId": "clip-1",
+      "reference": "the customer would like to borrow fifteen thousand euros over five years"
+    },
+    {
+      "clipId": "clip-2",
+      "reference": "please send two recent payslips and a copy of your latest bank statement"
+    },
+    {
+      "clipId": "clip-3",
+      "reference": "the annual percentage rate is six point nine percent fixed for the full term"
+    },
+    {
+      "clipId": "clip-4",
+      "reference": "identity was verified with two security questions before any details were shared"
+    }
+  ]
+}

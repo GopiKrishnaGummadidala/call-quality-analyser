@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TRANSCRIPTION annotation, schema version 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["segments"],
+  "properties": {
+    "segments": {
+      "type": "array",
+      "maxItems": 500,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "startMs", "endMs", "speaker", "label", "text"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "startMs": { "type": "integer", "minimum": 0 },
+          "endMs": { "type": "integer", "minimum": 0 },
+          "speaker": { "enum": ["AGENT", "CUSTOMER", "OTHER"] },
+          "label": { "enum": ["CLEAR", "UNCLEAR", "CROSSTALK"] },
+          "text": { "type": "string", "maxLength": 2000 }
+        }
+      }
+    }
+  }
+}

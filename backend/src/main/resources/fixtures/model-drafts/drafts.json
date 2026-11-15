@@ -1,0 +1,238 @@
+{
+  "model": {
+    "name": "whisper-base.en",
+    "version": "faster-whisper 1.2.1, Systran/faster-whisper-base.en, int8, beam 5",
+    "provenance": "Real model output produced offline by scripts/draft_with_whisper.py; not edited by hand."
+  },
+  "generatedAt": "2026-11-15T12:48:21+00:00",
+  "drafts": {
+    "call-01": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "Good morning. I am calling from the bank about your personal loan inquiry.",
+          "avgLogprob": -0.227,
+          "noSpeechProb": 0.001
+        },
+        {
+          "id": "s2",
+          "text": "Yes. I would like to borrow \u20ac15,000 for a car.",
+          "avgLogprob": -0.226,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s3",
+          "text": "Before we continue, please confirm your date of birth and your postcode.",
+          "avgLogprob": -0.185,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s4",
+          "text": "Thank you. The loan would run over 5 years at a fixed rate of 6.9%.",
+          "avgLogprob": -0.252,
+          "noSpeechProb": 0.001
+        }
+      ]
+    },
+    "call-02": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "I am calling because your loan application is missing two recent pay slips.",
+          "avgLogprob": -0.206,
+          "noSpeechProb": 0.001
+        },
+        {
+          "id": "s2",
+          "text": "Can I upload them in the app instead of sending them by post?",
+          "avgLogprob": -0.245,
+          "noSpeechProb": 0.002
+        },
+        {
+          "id": "s3",
+          "text": "Yes, upload them in the Documents section and we will review them within two working days.",
+          "avgLogprob": -0.235,
+          "noSpeechProb": 0.001
+        }
+      ]
+    },
+    "call-03": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "To check affordability I need your monthly income after tax.",
+          "avgLogprob": -0.259,
+          "noSpeechProb": 0.001
+        },
+        {
+          "id": "s2",
+          "text": "it is about 3200 euros. and my rent is 900.",
+          "avgLogprob": -0.362,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s3",
+          "text": "Do you have any other loans or credit card balances at the moment?",
+          "avgLogprob": -0.178,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s4",
+          "text": "Only a credit card with around 400 euros on it.",
+          "avgLogprob": -0.296,
+          "noSpeechProb": 0.001
+        }
+      ]
+    },
+    "call-04": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "Am I speaking with Mr. Max Keller, the main account holder?",
+          "avgLogprob": -0.316,
+          "noSpeechProb": 0.007
+        },
+        {
+          "id": "s2",
+          "text": "Yes, that is me. My account number ends in 4417.",
+          "avgLogprob": -0.329,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s3",
+          "text": "Thank you, Mr. Keller. I can now go through the loan offer with you.",
+          "avgLogprob": -0.219,
+          "noSpeechProb": 0.001
+        },
+        {
+          "id": "s4",
+          "text": "Identity verified with two security questions before any account details were shared.",
+          "avgLogprob": -0.141,
+          "noSpeechProb": 0.0
+        }
+      ]
+    },
+    "call-05": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "You asked about the early repayment fee on your loan.",
+          "avgLogprob": -0.22,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s2",
+          "text": "Yes, if I pay it all back next year, how much extra will that cost me?",
+          "avgLogprob": -0.223,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s3",
+          "text": "The fee is 1% of the amount you repay early, and we will confirm it in writing.",
+          "avgLogprob": -0.118,
+          "noSpeechProb": 0.0
+        }
+      ]
+    },
+    "call-06": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "I have both applicants on the line, so I will ask each of you to confirm the details.",
+          "avgLogprob": -0.142,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s2",
+          "text": "Hello. I am the second applicant. Can you hear me?",
+          "avgLogprob": -0.351,
+          "noSpeechProb": 0.003
+        },
+        {
+          "id": "s3",
+          "text": "Can you hear me? Yes. We can both hear you fine.",
+          "avgLogprob": -0.249,
+          "noSpeechProb": 0.009
+        },
+        {
+          "id": "s4",
+          "text": "good. We would like the repayments to come out on the first of each month.",
+          "avgLogprob": -0.271,
+          "noSpeechProb": 0.004
+        },
+        {
+          "id": "s5",
+          "text": "that works. I will note the first of the month as the payment date.",
+          "avgLogprob": -0.254,
+          "noSpeechProb": 0.001
+        }
+      ]
+    },
+    "call-07": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "Call note. The customer asked for a three-month repayment holiday after losing a second job.",
+          "avgLogprob": -0.2,
+          "noSpeechProb": 0.001
+        },
+        {
+          "id": "s2",
+          "text": "I explained that interest keeps building up during the break and the loan term gets longer.",
+          "avgLogprob": -0.131,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s3",
+          "text": "referred to the financial support team, and a follow-up call is booked for Friday.",
+          "avgLogprob": -0.149,
+          "noSpeechProb": 0.0
+        }
+      ]
+    },
+    "call-08": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "your fixed mortgage rate ends next month, so I am calling with the new options.",
+          "avgLogprob": -0.176,
+          "noSpeechProb": 0.001
+        },
+        {
+          "id": "s2",
+          "text": "What would the two year fixed rate be?",
+          "avgLogprob": -0.442,
+          "noSpeechProb": 0.002
+        },
+        {
+          "id": "s3",
+          "text": "4.1 percent, and there is no arrangement fee if you switch this month.",
+          "avgLogprob": -0.199,
+          "noSpeechProb": 0.001
+        }
+      ]
+    },
+    "call-09": {
+      "segments": [
+        {
+          "id": "s1",
+          "text": "Thanks for calling back about the mortgage application you started this morning.",
+          "avgLogprob": -0.147,
+          "noSpeechProb": 0.0
+        },
+        {
+          "id": "s2",
+          "text": "Do you need anything else from me before the valuation?",
+          "avgLogprob": -0.23,
+          "noSpeechProb": 0.001
+        },
+        {
+          "id": "s3",
+          "text": "Only a copy of your latest bank statement, then we can book the valuation.",
+          "avgLogprob": -0.157,
+          "noSpeechProb": 0.0
+        }
+      ]
+    }
+  }
+}

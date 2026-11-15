@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: call-quality-analyser
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/callqa}
+    username: ${DB_USER:callqa}
+    password: ${DB_PASSWORD:callqa}
+
+logging:
+  structured:
+    format:
+      console: ecs   # JSON logs incl. MDC (correlationId). Never log payloads.
+
+app:
+  auth:
+    # HS256 signing key for access tokens (>= 32 bytes). Always set JWT_SECRET outside local demos.
+    jwt-secret: ${JWT_SECRET:dev-only-call-quality-analyser-signing-key-change-me}
+    token-ttl: 8h
+  seed:
+    enabled: true
+    # Password given to every seeded demo account (stored only as a bcrypt hash).
+    demo-password: ${DEMO_PASSWORD:Test123}
+  demo-endpoints:
+    enabled: true    # /api/demo/reset (ADMIN only). Disable outside local demos.

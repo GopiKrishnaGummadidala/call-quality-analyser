@@ -1,0 +1,8 @@
+/* Most styling lives in MUI (src/app/theme.ts). Colours here use MUI's CSS variables so they follow light/dark. */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.error { color: var(--mui-palette-error-main); }
+audio { display: none; }
+::selection { background: color-mix(in srgb, var(--mui-palette-primary-main) 28%, transparent); }

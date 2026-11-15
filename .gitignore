@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.gradle/
+build/
+.idea/
+.vscode/
+*.log
+.claude/
+e2e/test-results/
+e2e/playwright-report/
+e2e/load/results/
+frontend/test-report/

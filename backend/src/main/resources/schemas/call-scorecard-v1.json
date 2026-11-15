@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CALL_SCORECARD annotation, schema version 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["checks", "outcome", "notes"],
+  "definitions": {
+    "result": { "enum": ["PASS", "FAIL", "NOT_APPLICABLE", null] }
+  },
+  "properties": {
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "IDENTITY_VERIFIED": { "$ref": "#/definitions/result" },
+        "PURPOSE_STATED": { "$ref": "#/definitions/result" },
+        "AFFORDABILITY_CHECKED": { "$ref": "#/definitions/result" },
+        "COSTS_DISCLOSED": { "$ref": "#/definitions/result" },
+        "WITHDRAWAL_RIGHTS_EXPLAINED": { "$ref": "#/definitions/result" },
+        "NO_PRESSURE_SELLING": { "$ref": "#/definitions/result" },
+        "NEXT_STEPS_CONFIRMED": { "$ref": "#/definitions/result" }
+      }
+    },
+    "outcome": { "enum": ["COMPLIANT", "NEEDS_COACHING", "BREACH", null] },
+    "notes": { "type": "string", "maxLength": 2000 }
+  }
+}

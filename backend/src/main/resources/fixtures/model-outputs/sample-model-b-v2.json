@@ -1,0 +1,21 @@
+{
+  "provenance": "SAMPLE: hand-written illustrative output. NOT produced by a real model. Replace with real transcripts (e.g. Whisper small) before drawing any conclusion.",
+  "outputs": [
+    {
+      "clipId": "clip-1",
+      "hypothesis": "the customer would like to borrow fifteen thousand euros over five years"
+    },
+    {
+      "clipId": "clip-2",
+      "hypothesis": "please send two recent payslips and a copy of your latest bank statement"
+    },
+    {
+      "clipId": "clip-3",
+      "hypothesis": "the annual percentage rate is six point nine percent fixed for the full term"
+    },
+    {
+      "clipId": "clip-4",
+      "hypothesis": "identity was verified with to security questions before any details were shared"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+    "generatedBy":  "scripts/generate-audio.ps1",
+    "voice":  "Microsoft Zira Desktop",
+    "sampleRate":  16000,
+    "calls":  [
+                  {
+                      "clipId":  "call-01",
+                      "project":  "proj-a",
+                      "title":  "Personal loan: eligibility check",
+                      "assignee":  "u-alice",
+                      "status":  "IN_PROGRESS",
+                      "prefill":  "model",
+                      "audioUrl":  "/audio/call-01.wav",
+                      "durationMs":  20854,
+                      "review":  null,
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  4435,
+                                           "text":  "Good morning, I am calling from the bank about your personal loan enquiry."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  5085,
+                                           "endMs":  9678,
+                                           "text":  "Yes, I would like to borrow fifteen thousand euros for a car."
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  10328,
+                                           "endMs":  14432,
+                                           "text":  "Before we continue, please confirm your date of birth and your postcode."
+                                       },
+                                       {
+                                           "id":  "s4",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  14852,
+                                           "endMs":  20354,
+                                           "text":  "Thank you. The loan would run over five years at a fixed rate of six point nine percent."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-02",
+                      "project":  "proj-a",
+                      "title":  "Loan application: missing documents",
+                      "assignee":  "u-alice",
+                      "status":  "IN_PROGRESS",
+                      "prefill":  "draft",
+                      "audioUrl":  "/audio/call-02.wav",
+                      "durationMs":  14941,
+                      "review":  null,
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  4541,
+                                           "text":  "I am calling because your loan application is missing two recent payslips."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  5191,
+                                           "endMs":  9013,
+                                           "text":  "Can I upload them in the app instead of sending them by post?"
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  9663,
+                                           "endMs":  14441,
+                                           "text":  "Yes, upload them in the documents section and we will review them within two working days."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-03",
+                      "project":  "proj-a",
+                      "title":  "Affordability review: monthly income",
+                      "assignee":  "u-alice",
+                      "status":  "SUBMITTED",
+                      "prefill":  "complete",
+                      "audioUrl":  "/audio/call-03.wav",
+                      "durationMs":  18590,
+                      "review":  null,
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  3776,
+                                           "text":  "To check affordability I need your monthly income after tax."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  4426,
+                                           "endMs":  9619,
+                                           "text":  "It is about three thousand two hundred euros, and my rent is nine hundred."
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  10269,
+                                           "endMs":  13795,
+                                           "text":  "Do you have any other loans or credit card balances at the moment?"
+                                       },
+                                       {
+                                           "id":  "s4",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  14445,
+                                           "endMs":  18090,
+                                           "text":  "Only a credit card with around four hundred euros on it."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-04",
+                      "project":  "proj-a",
+                      "title":  "Identity check before discussing the account",
+                      "assignee":  "u-alice",
+                      "status":  "APPROVED",
+                      "prefill":  "complete",
+                      "audioUrl":  "/audio/call-04.wav",
+                      "durationMs":  21466,
+                      "review":  {
+                                     "reviewer":  "u-bob",
+                                     "comment":  "Clear and complete, thanks."
+                                 },
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  3887,
+                                           "text":  "Am I speaking with Mister Max Keller, the main account holder?"
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  4537,
+                                           "endMs":  10303,
+                                           "text":  "Yes, that is me. My account number ends in four four one seven."
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  10953,
+                                           "endMs":  15798,
+                                           "text":  "Thank you, Mister Keller. I can now go through the loan offer with you."
+                                       },
+                                       {
+                                           "id":  "s4",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  16218,
+                                           "endMs":  20966,
+                                           "text":  "Identity verified with two security questions before any account details were shared."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-05",
+                      "project":  "proj-a",
+                      "title":  "Early repayment fee question",
+                      "assignee":  "u-alice",
+                      "status":  "CHANGES_REQUESTED",
+                      "prefill":  "complete",
+                      "audioUrl":  "/audio/call-05.wav",
+                      "durationMs":  15401,
+                      "review":  {
+                                     "reviewer":  "u-bob",
+                                     "comment":  "Segment 2 is the customer speaking, not the agent. Please fix the speaker."
+                                 },
+                      "speakerMistake":  1,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  3159,
+                                           "text":  "You asked about the early repayment fee on your loan."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  3809,
+                                           "endMs":  9582,
+                                           "text":  "Yes, if I pay it all back next year, how much extra will that cost me?"
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  10232,
+                                           "endMs":  14901,
+                                           "text":  "The fee is one percent of the amount you repay early, and we will confirm it in writing."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-06",
+                      "project":  "proj-a",
+                      "title":  "Joint application call with overlapping speech",
+                      "assignee":  "u-erik",
+                      "status":  "IN_PROGRESS",
+                      "prefill":  "model",
+                      "audioUrl":  "/audio/call-06.wav",
+                      "durationMs":  21398,
+                      "review":  null,
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  5171,
+                                           "text":  "I have both applicants on the line, so I will ask each of you to confirm the details."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "OTHER",
+                                           "label":  "CLEAR",
+                                           "startMs":  5821,
+                                           "endMs":  8779,
+                                           "text":  "Hello, I am the second applicant, can you hear me?"
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CROSSTALK",
+                                           "startMs":  8079,
+                                           "endMs":  11812,
+                                           "text":  "Yes, yes, we can both hear you fine."
+                                       },
+                                       {
+                                           "id":  "s4",
+                                           "speaker":  "OTHER",
+                                           "label":  "CLEAR",
+                                           "startMs":  12462,
+                                           "endMs":  16210,
+                                           "text":  "Good. We would like the repayments to come out on the first of each month."
+                                       },
+                                       {
+                                           "id":  "s5",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  16860,
+                                           "endMs":  20898,
+                                           "text":  "That works. I will note the first of the month as the payment date."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-07",
+                      "project":  "proj-a",
+                      "title":  "Repayment holiday request",
+                      "assignee":  "u-erik",
+                      "status":  "SUBMITTED",
+                      "prefill":  "complete",
+                      "audioUrl":  "/audio/call-07.wav",
+                      "durationMs":  16391,
+                      "review":  null,
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  6083,
+                                           "text":  "Call note. The customer asked for a three month repayment holiday after losing a second job."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  6503,
+                                           "endMs":  10944,
+                                           "text":  "I explained that interest keeps building up during the break and the loan term gets longer."
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  11364,
+                                           "endMs":  15891,
+                                           "text":  "Referred to the financial support team, and a follow-up call is booked for Friday."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-08",
+                      "project":  "proj-c",
+                      "title":  "Mortgage rate follow-up",
+                      "assignee":  "u-erik",
+                      "status":  "SUBMITTED",
+                      "prefill":  "complete",
+                      "audioUrl":  "/audio/call-08.wav",
+                      "durationMs":  13362,
+                      "review":  null,
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  4899,
+                                           "text":  "Your fixed mortgage rate ends next month, so I am calling with the new options."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  5549,
+                                           "endMs":  7691,
+                                           "text":  "What would the two year fixed rate be?"
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  8341,
+                                           "endMs":  12862,
+                                           "text":  "Four point one percent, and there is no arrangement fee if you switch this month."
+                                       }
+                                   ]
+                  },
+                  {
+                      "clipId":  "call-09",
+                      "project":  "proj-c",
+                      "title":  "Mortgage callback: new application",
+                      "assignee":  "u-erik",
+                      "status":  "IN_PROGRESS",
+                      "prefill":  "none",
+                      "audioUrl":  "/audio/call-09.wav",
+                      "durationMs":  13835,
+                      "review":  null,
+                      "speakerMistake":  null,
+                      "segments":  [
+                                       {
+                                           "id":  "s1",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  350,
+                                           "endMs":  4229,
+                                           "text":  "Thanks for calling back about the mortgage application you started this morning."
+                                       },
+                                       {
+                                           "id":  "s2",
+                                           "speaker":  "CUSTOMER",
+                                           "label":  "CLEAR",
+                                           "startMs":  4879,
+                                           "endMs":  8299,
+                                           "text":  "Do you need anything else from me before the valuation?"
+                                       },
+                                       {
+                                           "id":  "s3",
+                                           "speaker":  "AGENT",
+                                           "label":  "CLEAR",
+                                           "startMs":  8949,
+                                           "endMs":  13335,
+                                           "text":  "Only a copy of your latest bank statement, then we can book the valuation."
+                                       }
+                                   ]
+                  }
+              ],
+    "scorecards":  [
+                       {
+                           "id":  "score-01",
+                           "call":  "call-01",
+                           "project":  "proj-a",
+                           "title":  "QA: loan eligibility call",
+                           "assignee":  "u-alice",
+                           "status":  "IN_PROGRESS"
+                       },
+                       {
+                           "id":  "score-02",
+                           "call":  "call-03",
+                           "project":  "proj-a",
+                           "title":  "QA: affordability review",
+                           "assignee":  "u-alice",
+                           "status":  "SUBMITTED",
+                           "checks":  {
+                                          "IDENTITY_VERIFIED":  "NOT_APPLICABLE",
+                                          "PURPOSE_STATED":  "PASS",
+                                          "AFFORDABILITY_CHECKED":  "PASS",
+                                          "COSTS_DISCLOSED":  "NOT_APPLICABLE",
+                                          "WITHDRAWAL_RIGHTS_EXPLAINED":  "NOT_APPLICABLE",
+                                          "NO_PRESSURE_SELLING":  "PASS",
+                                          "NEXT_STEPS_CONFIRMED":  "PASS"
+                                      },
+                           "outcome":  "COMPLIANT",
+                           "notes":  "Income, rent and existing credit were all asked for."
+                       },
+                       {
+                           "id":  "score-03",
+                           "call":  "call-04",
+                           "project":  "proj-a",
+                           "title":  "QA: identity check",
+                           "assignee":  "u-erik",
+                           "status":  "APPROVED",
+                           "review":  {
+                                          "reviewer":  "u-bob",
+                                          "comment":  ""
+                                      },
+                           "checks":  {
+                                          "IDENTITY_VERIFIED":  "PASS",
+                                          "PURPOSE_STATED":  "PASS",
+                                          "AFFORDABILITY_CHECKED":  "NOT_APPLICABLE",
+                                          "COSTS_DISCLOSED":  "NOT_APPLICABLE",
+                                          "WITHDRAWAL_RIGHTS_EXPLAINED":  "NOT_APPLICABLE",
+                                          "NO_PRESSURE_SELLING":  "PASS",
+                                          "NEXT_STEPS_CONFIRMED":  "PASS"
+                                      },
+                           "outcome":  "COMPLIANT",
+                           "notes":  ""
+                       },
+                       {
+                           "id":  "score-04",
+                           "call":  "call-05",
+                           "project":  "proj-a",
+                           "title":  "QA: early repayment fee",
+                           "assignee":  "u-erik",
+                           "status":  "CHANGES_REQUESTED",
+                           "review":  {
+                                          "reviewer":  "u-bob",
+                                          "comment":  "The agent did promise written confirmation, so next steps should pass and the outcome is compliant."
+                                      },
+                           "checks":  {
+                                          "IDENTITY_VERIFIED":  "NOT_APPLICABLE",
+                                          "PURPOSE_STATED":  "PASS",
+                                          "AFFORDABILITY_CHECKED":  "NOT_APPLICABLE",
+                                          "COSTS_DISCLOSED":  "PASS",
+                                          "WITHDRAWAL_RIGHTS_EXPLAINED":  "NOT_APPLICABLE",
+                                          "NO_PRESSURE_SELLING":  "PASS",
+                                          "NEXT_STEPS_CONFIRMED":  "FAIL"
+                                      },
+                           "outcome":  "NEEDS_COACHING",
+                           "notes":  "No follow-up was agreed."
+                       },
+                       {
+                           "id":  "score-05",
+                           "call":  "call-08",
+                           "project":  "proj-c",
+                           "title":  "QA: mortgage rate follow-up",
+                           "assignee":  "u-erik",
+                           "status":  "APPROVED",
+                           "review":  {
+                                          "reviewer":  "u-alice",
+                                          "comment":  "Correct."
+                                      },
+                           "checks":  {
+                                          "IDENTITY_VERIFIED":  "FAIL",
+                                          "PURPOSE_STATED":  "PASS",
+                                          "AFFORDABILITY_CHECKED":  "NOT_APPLICABLE",
+                                          "COSTS_DISCLOSED":  "PASS",
+                                          "WITHDRAWAL_RIGHTS_EXPLAINED":  "NOT_APPLICABLE",
+                                          "NO_PRESSURE_SELLING":  "FAIL",
+                                          "NEXT_STEPS_CONFIRMED":  "PASS"
+                                      },
+                           "outcome":  "BREACH",
+                           "notes":  "Rate details given before identity was checked; \u0027switch this month\u0027 deadline is pressure selling."
+                       }
+                   ]
+}
